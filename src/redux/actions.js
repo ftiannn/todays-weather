@@ -15,7 +15,7 @@ export const searchRequest = (city, country) => async (dispatch) => {
 
   return axios
     .get(
-      `http://api.openweathermap.org/data/2.5/weather?q=${criteria}&appid=c3a8951e9f10f320d81023e11e361418&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${criteria}&appid=c3a8951e9f10f320d81023e11e361418&units=metric`
     )
     .then(({ data }) => {
       console.log(data);
