@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/todays-weather/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/todays-weather/static/js/main.57a11942.chunk.js",
+    "main.js.map": "/todays-weather/static/js/main.57a11942.chunk.js.map",
+    "runtime-main.js": "/todays-weather/static/js/runtime-main.5517263c.js",
+    "runtime-main.js.map": "/todays-weather/static/js/runtime-main.5517263c.js.map",
+    "static/css/2.b3860ff2.chunk.css": "/todays-weather/static/css/2.b3860ff2.chunk.css",
+    "static/js/2.2b34b991.chunk.js": "/todays-weather/static/js/2.2b34b991.chunk.js",
+    "static/js/2.2b34b991.chunk.js.map": "/todays-weather/static/js/2.2b34b991.chunk.js.map",
+    "index.html": "/todays-weather/index.html",
+    "static/css/2.b3860ff2.chunk.css.map": "/todays-weather/static/css/2.b3860ff2.chunk.css.map",
+    "static/css/main.ea1455b2.chunk.css.map": "/todays-weather/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.2b34b991.chunk.js.LICENSE.txt": "/todays-weather/static/js/2.2b34b991.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/todays-weather/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5517263c.js",
+    "static/css/2.b3860ff2.chunk.css",
+    "static/js/2.2b34b991.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.57a11942.chunk.js"
+  ]
+}
