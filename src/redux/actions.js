@@ -18,10 +18,8 @@ export const searchRequest = (city, country) => async (dispatch) => {
       `https://api.openweathermap.org/data/2.5/weather?q=${criteria}&appid=c3a8951e9f10f320d81023e11e361418&units=metric`
     )
     .then(({ data }) => {
-      console.log(data);
       dispatch(updateSearchResult(data));
       dispatch(updateSearchHistory(data));
-      console.log("end");
     });
 };
 
