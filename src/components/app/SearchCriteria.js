@@ -16,9 +16,9 @@ const SearchCriteria = () => {
       setCityError("Please enter city");
     } else {
       try {
-        await dispatch(searchRequest( city, country ) );
-        dispatch( updateSearchParams( city, country ) )
-        clearForm()
+        await dispatch(searchRequest(city, country));
+        dispatch(updateSearchParams(city, country));
+        clearForm();
       } catch (e) {
         console.log(e);
         setFormError(true);
@@ -63,7 +63,7 @@ const SearchCriteria = () => {
           <Form.Button onClick={clearForm}>Reset</Form.Button>
         </Form.Group>
       </Form>
-      
+
       {formError && (
         <Message negative>
           <p>No Record Found</p>

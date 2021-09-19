@@ -36,7 +36,7 @@ export const getSearchHistory = (store) => {
     return {
       city: res.name,
       country: res.sys.country,
-      time: moment(new Date(res.dt * 1000 + res.timezone)).format("h:mm:ss A")
+      time: moment(new Date(res.dt * 1000 + res.timezone)).format("h:mm:ss A"),
     };
   });
 };
