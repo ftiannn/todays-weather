@@ -19,6 +19,6 @@ jobs:
         with:
           project_id: ${{ secrets.PROJECT_ID }}
           version: master
-          credentials: ${{secrets.GOOGLE_APP_ENGINE_KEY}}
+          credentials: ${{secrets.GCP_CREDENTIAL}}
           flags: --no-cache
           deliverables: app.yaml
