@@ -1,24 +1,29 @@
-import { Container, Divider, Header, Segment } from 'semantic-ui-react';
+import { Tab } from "semantic-ui-react";
+import React from "react";
 
-import './App.css';
-import SearchCriteria from './components/app/SearchCriteria';
-import SearchResult from './components/app/SearchResult';
-import SearchHistory from './components/app/SearchHistory';
+import "./App.css";
+import Weather from "./view/weather";
+import Quote from "./view/quote";
 
-const App = () => {
-  return (
-    <Container style={{ marginTop: '3em' }} >
-      <Header as='h1'>Today's Weather</Header>
-      <Divider />
-      <SearchCriteria />
-      
-      <SearchResult />
-      
-    <Segment vertical style={{ marginTop: '7em' }}>
-        <SearchHistory />
-      </Segment>
-    </ Container>
-  );
-}
+const panes = [
+  {
+    menuItem: "Quote of the day",
+    render: () => (
+      <Tab.Pane attached={false}>
+        <Quote />
+      </Tab.Pane>
+    ),
+  },
+  {
+    menuItem: "Weather Tracker",
+    render: () => (
+      <Tab.Pane attached={false}>
+        <Weather />
+      </Tab.Pane>
+    ),
+  },
+];
+
+const App = () => <Tab menu={{ pointing: true }} panes={panes} />;
 
 export default App;
