@@ -9,7 +9,6 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { rootReducer } from "./redux/reducers";
 
-
 const store = (() => {
   return createStore(
     rootReducer,

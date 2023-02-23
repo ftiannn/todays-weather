@@ -30,7 +30,6 @@ const Quote = () => {
 
       <Button
         style={{ marginTop: "2em" }}
-        color="github square"
         icon="github square"
         onClick={() =>
           (window.location = "https://github.com/ftiannn/todays-weather")
